@@ -18,7 +18,7 @@ func Bool(b bool) *bool {
 	return &b
 }
 
-func BoolP(b *bool) bool {
+func BoolVal(b *bool) bool {
 	if b == nil {
 		return false
 	} else {
